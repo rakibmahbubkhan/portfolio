@@ -1,0 +1,92 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+.bg-antiquewhite {
+  background-color: antiquewhite;
+}
+
+.bg-navy {
+  background-color: rgb(49, 6, 53);
+  color: white;
+}
+#text {
+  color: rgb(49, 6, 53);
+  font-size: 7rem;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: center;
+}
+
+#item {
+  color: rgb(79, 12, 85);
+  text-align: center;
+  width: 66%;
+  position: relative;
+  left: 17%;
+}
+
+.padding-y {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.border-text {
+  border: 5px solid white !important;
+}
+
+/* .image:hover{
+    color: rgba(255, 255, 255, 0.24);
+} */
+#portfolio {
+  background-color: darkslategray;
+}
+.image {
+  margin-bottom: 1rem;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.mid-button {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mid-button i {
+  color: white;
+  font-size: 4rem;
+}
+
+.image:hover {
+  opacity: 0.3;
+}
+
+.mid-button:hover {
+  opacity: 1;
+  font-size: 4rem;
+  color: #faebd7;
+}
+
+.title {
+  font-weight: 800;
+  text-decoration: underline;
+  color: white;
+}
+
+/* .portfolio{
+
+} */
+
+footer {
+  font-size: 1.5rem;
+}
